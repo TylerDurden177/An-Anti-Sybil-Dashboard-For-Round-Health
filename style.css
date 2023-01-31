@@ -67,6 +67,16 @@ margin: 10px 0;
 
 
 
+/* This is a CSS stylesheet for a component called AntiSybilDashboard in a React application.
 
+The styles define the layout and appearance of different elements in the component, such as:
 
-
+The .dashboard class sets the display to flex, flex-direction to column, and align-items to center, with a padding of 20px.
+The .data-section class sets the width to 80%, adds padding and a border, and centers the text.
+The .unique-ips, .unique-device-fingerprints, and .unique-emails classes set the width to 33%, adds padding, centers the text, and sets a height of 100%.
+The h2 elements have a margin-bottom of 20px.
+The .blockchain-data and .ip-address-data classes have a width of 45%, a height of 100%, padding, a light gray border, rounded corners, and a drop shadow. 
+The text is centered.
+The p elements have a margin of 10px 0.
+Additionally, there is a media query for screens with a minimum width of 600px,
+which changes the .dashboard to have a flex-direction of row and changes the .data-section class to have a width of 40%. */
