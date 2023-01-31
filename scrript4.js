@@ -12,3 +12,7 @@ const AntiSybilDashboard = () => {
 };
 
 export default AntiSybilDashboard;
+
+/* This is a simple React component that returns a div with a class name of "dashboard". 
+Inside the div, there is another div with a class name of "data-section". 
+The "data-section" div contains an h2 tag with the text "Data Section" and a p tag with the text "Data goes here".*/
