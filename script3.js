@@ -40,3 +40,7 @@ const AntiSybilDashboard = () => {
 };
 
 export default AntiSybilDashboard;
+
+/* This is a basic React component for an Anti-Sybil Dashboard. 
+It uses the IPFS client to retrieve data from IPFS and Axios to retrieve data from external APIs (Blockchair and Nominum). 
+The retrieved data is stored in the state variables 'blockchainData' and 'ipAddressData', which are then displayed on the dashboard. */
