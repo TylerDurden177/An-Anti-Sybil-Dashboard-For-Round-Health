@@ -13,3 +13,5 @@ Alerts and notifications: The dashboard sends real-time alerts and notifications
 Report generation: The dashboard generates reports that provide an overview of the Sybil attack risk and helps organizations understand the impact of the attack on their system.
 
 Overall, an anti-Sybil dashboard for Round Health is a crucial tool for healthcare organizations to protect patient data and maintain the integrity of their systems.
+
+Thanks !
