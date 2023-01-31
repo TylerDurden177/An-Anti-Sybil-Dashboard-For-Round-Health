@@ -34,3 +34,9 @@ const AntiSybilDashboard = () => {
   );
 };
 
+/* This is a React component that implements a dashboard for Anti-Sybil data. The component
+uses the useState and useEffect hooks to fetch data from a remote API and set the data in the state. 
+The component also creates a data visualization using D3, and a map using Mapbox. 
+The data visualization is displayed in an SVG element and the map is displayed in a Mapbox map container. 
+The component sets the style of the map to "mapbox://styles/mapbox/streets-v11". 
+The center of the map is set to [-74.5, 40] with a zoom level of '9'. */
