@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src= "script.js" ></script>
+  <script src= "script2.js" ></script>
+  <script src= "script3.js" ></script>
+  <script src= "scrript4.js" ></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .bar {
+      fill: steelblue;
+    }
+
+    .bar:hover {
+      fill: brown;
+    }
+
+    .axis--x path {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label>Data Source:
+      <select id="data-source">
+        <option value="data1.csv">Data 1</option>
+        <option value="data2.csv">Data 2</option>
+        <option value="data3.csv">Data 3</option>
+      </select>
+    </label>
+    <label>Visualization:
+      <select id="visualization">
+        <option value="bar">Bar Chart</option>
+        <option value="line">Line Chart</option>
+        <option value="scatter">Scatter Plot</option>
+      </select>
+    </label>
+    <button id="update">Update</button>
+  </div>
+  <svg width="960" height="500"></svg>
+  <script>
+    var dataSource = d3.select("#data-source").property("value"),
+      visualization = d3.select("#visualization").property("value");
+
+    d3.select("#update").on("click", function() {
+      dataSource = d3.select("#data-source").property("value");
+      visualization = d3.select("#visualization").property("value");
+      updateVisualization();
+    });
+
+    function updateVisualization() {
+      // code to update the visualization based on the selected data source and visualization type
+    }
+  </script>
+</body>
+</html>
